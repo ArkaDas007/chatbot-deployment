@@ -1,0 +1,103 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi, how can i help you?",
+        "Hello, what can I do for you?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help you!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "made",
+      "patterns": [
+        "what are you made for?",
+        "what can you do?",
+        "can you help me?",
+        "can you help me with a problem?",
+        "what are you?",
+        "what is your purpose?"              
+      ],
+      "responses": [
+        "I am a chatbot who can help you clarify your doubts in this website.",
+        "I am a chatbot which can clarify your doubts for this website. Feel free to ask anything"                
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "can you help me?",
+        "can you help me with a problem?",
+        "i am having an issue",
+        "i am having problem in this website",
+        "i am struggling"
+      ],
+      "responses": ["Feel free to ask anything."]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "what is this website made for?",
+        "what is this website?",
+        "what is the purpose of this website?",
+        "what is this website used for?",
+        "how is this website helpful?"       
+      ],
+      "responses": [
+        "This is a Ayush Startup Registration Portal where anybody can register themselves for startups in the Ayush Sector.",
+        "This website is a Startup Registration Portal named as AYUSH which helps startups related to Yoga & Naturopathy, Unani, Siddha, and Homoeopathy."
+      ]
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "how can i register myself?",
+        "how to login again?",
+        "How can i login?",
+        "where can i find the login page?",
+        "where can i find the register page?",
+        "how to register?",
+        "how to register myself?"
+      ],
+      "responses": [
+        "You can register yourself by going to do signup option on the top right corner.",
+        "You can find the registration/login page on the top right corner of your screen."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
